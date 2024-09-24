@@ -7,11 +7,6 @@ a {
   color: #8052ed;
 }
 
-header {
-  border-bottom: 1 px solid #cedde0;
-  padding: 0, 0, 30px 0;
-}
-
 .weather-app {
   background: white;
   max-width: 600px;
@@ -20,6 +15,11 @@ header {
   border-radius: 16px;
   padding: 30px;
 }
+header {
+  border-bottom: 1 px solid #cedde0;
+  padding: 0, 0, 30px 0;
+}
+
 .search-form-input {
   background-color: #cedde0;
   border: none;
@@ -30,7 +30,7 @@ header {
 }
 
 .search-form-button {
-  background-color: #8052ed;
+  background-color: #885df1;
   border: none;
   border-radius: 6px;
   font-size: 16px;
