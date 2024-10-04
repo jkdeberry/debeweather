@@ -67,7 +67,6 @@ function getForecast(city) {
   axios.get(apiUrl).then(displayForecast);
 }
 
-
 function displayForecast(response) {
   let forecastHtml = "";
 
@@ -100,4 +99,3 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Atlanta");
-
